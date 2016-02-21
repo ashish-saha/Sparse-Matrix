@@ -123,7 +123,7 @@ public class SLLSparseM implements SparseM {
 	}
 
 	public void setElement(int ridx, int cidx, int val) {
-		nelements++;
+		
 		rowHeadNode currHead = header;
 		elementNode e;
 		
@@ -133,6 +133,8 @@ public class SLLSparseM implements SparseM {
 			clearElement (ridx, cidx);
 			return;
 		}
+		nelements++;
+
 		// if the list is empty create an element then create a rowHeadNode
 		if (currHead== null)	{
 			e = new elementNode (val, ridx, cidx);
