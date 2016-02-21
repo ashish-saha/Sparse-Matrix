@@ -74,7 +74,8 @@ public class SLLMainClass {
 		nr = M.nrows();			// number of rows
 		nc = M.ncols();			// number of columns
 		ne = M.numElements();	// number of elements
-		System.out.println(nr + " " + nc + " " + ne);
+		System.out.println("Rows: " + nr + " Cols: " + nc + " Elements: " + ne );
+		System.out.println();
 		for(int i = 0; i < ne; i++)
 			System.out.println(ridx[i] + " " + cidx[i] + " " + val[i]);
 		System.out.println("END");
