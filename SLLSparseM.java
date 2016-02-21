@@ -361,7 +361,6 @@ public class SLLSparseM implements SparseM {
 					if (otherEle.col == currEle.col) { 
 						currEle.element = (currEle.element + otherEle.element);
 						otherEle = otherEle.next;
-			//			if (currEle.next != null)	currEle = currEle.next;
 						continue;
 					}
 					currEle = currEle.next;				
@@ -373,20 +372,4 @@ public class SLLSparseM implements SparseM {
 		}
 	}
 	
-	public void print (){
-		rowHeadNode h = header;
-		elementNode e;
-		while (h != null)	{
-			e =h.first;
-			System.out.print(h.rowHeadidx +"|" + h.rowElements + "----------");;
-			while ( e!= null )	{
-				System.out.print("|" + e.row + "|" + e.col + "|" + e.element + "|" + "--");
-				e = e.next;
-				if (e == null) 		System.out.println ("@");
- 			}
-			h = h.nextRow;
-		}
-		return;
-	}
-
 }

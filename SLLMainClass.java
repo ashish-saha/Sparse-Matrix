@@ -78,6 +78,5 @@ public class SLLMainClass {
 		for(int i = 0; i < ne; i++)
 			System.out.println(ridx[i] + " " + cidx[i] + " " + val[i]);
 		System.out.println("END");
-		((SLLSparseM) M).print();
 	}
 }
