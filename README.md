@@ -1,5 +1,3 @@
-+1 for opt-in
-
 # Sparse-Matrix
 
 This sparse matrix is implemented in Java using singly Linked-List in order to store integer values in specified rows and 
