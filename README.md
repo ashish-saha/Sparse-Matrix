@@ -1,7 +1,8 @@
 # Sparse-Matrix
 
 This sparse matrix is implemented in Java using singly Linked-List in order to store integer values in specified rows and 
-columns. I also implemented a graphical representaion in order to have a better understanding of the matrix.					
+columns. There is also an addition method that can combine multiple Sparse-Matrix in linear time. I also implemented a graphical representaion in order to have a better understanding of the matrix.					
+
 You can see an example of sample output below. 
 
 
